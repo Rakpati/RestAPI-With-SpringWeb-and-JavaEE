@@ -1,0 +1,10 @@
+CREATE DATABASE springboot;
+use springboot;
+
+CREATE TABLE `staff` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) NOT NULL,
+  `designation` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
